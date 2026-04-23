@@ -53,3 +53,50 @@ A full-stack web application designed to streamline academic workflows for teach
   - View only their marks  
   - Raise queries regarding marks  
   
+---
+
+### 🎨 Frontend Tech Stack
+
+The frontend of this project is built using the following technologies:
+
+- **React (with TypeScript)** – Component-based UI development with type safety  
+- **Vite** – Fast development server and build tool  
+- **Tailwind CSS** – Utility-first CSS framework for styling  
+- **ShadCN UI** – Reusable and accessible UI component library  
+- **Lucide React** – Icon library  
+- **PostCSS** – CSS processing tool  
+- **tw-animate-css** – Animation utilities for UI effects
+
+---
+
+###🎨 Frontend Folder Structure
+
+src/
+ └── app/
+      ├── App.tsx
+      ├── components/
+      │   ├── AuthPage.tsx
+      │   ├── StudentDashboard.tsx
+      │   ├── TeacherDashboard.tsx
+      │
+      │   ├── student/
+      │   │    ├── AttendanceMark.tsx
+      │   │    ├── AssignmentSubmit.tsx
+      │   │    └── MarksView.tsx
+      │
+      │   ├── teacher/
+      │   │    ├── AttendanceApproval.tsx
+      │   │    ├── AssignmentManager.tsx
+      │   │    ├── MarksEntry.tsx
+      │   │    └── QueryInbox.tsx
+      │
+      │   ├── ui/
+      │   │    ├── button.tsx
+      │   │    ├── card.tsx
+      │   │    ├── dialog.tsx
+      │   │    └── ...
+      │
+      │   └── figma/
+      │
+      └── context/
+           └── AppContext.tsx
